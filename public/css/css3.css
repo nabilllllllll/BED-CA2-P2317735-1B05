@@ -1,0 +1,30 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensure it's above other content */
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.section-bg {
+    height: 100vh;
+    background-image: url("images/12140.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+.section-content {
+    padding-top: 150px; /* Adjust according to navbar height and to create space */
+}
+
+.card {
+    border-radius: 25px; /* Add rounded corners to the card */
+    margin-top: 50px; /* Add margin to push the card down */
+}
